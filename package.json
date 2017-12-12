@@ -1,0 +1,25 @@
+{
+  "name": "zzz.study-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akoarum/study-vue.git",
+  "license": "MIT",
+  "scripts": {
+    "server": "browser-sync start --config bs-config.js",
+    "build": "webpack --watch -d",
+    "start": "npm run server & npm run build"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.18.13",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.9"
+  }
+}
